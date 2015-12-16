@@ -6,6 +6,9 @@ lang: en-US
 ---
 
 ## Bluetooth Low Energy (BLE) Generic Attribute Profile (GATT) Sample Overview
+
+{% include VerifiedVersion.md %}
+
 In this sample we will discover how to work with Bluetooth Low Energy devices using the GATT profile and a TI CC2541 SensorTag. You can find the source code for this sample by downloading a zip of all of our samples [here](https://github.com/ms-iot/samples/archive/develop.zip){:target="_blank"}, and navigating to the [`BluetoothGATT/CS`](https://github.com/ms-iot/samples/tree/develop/BluetoothGATT/CS){:target="_blank"} folder.
 
 Information on Bluetooth support for Windows IoT Core devices can be found [here]({{site.baseurl}}/{{page.lang}}/win10/Bluetooth.htm){:target="_blank"}.
@@ -13,7 +16,7 @@ Information on Bluetooth support for Windows IoT Core devices can be found [here
 This sample is supported on all Windows IoT Core devices. DragonBoard 410c has the added advantage of onboard Bluetooth, meaning you will not need an additional Bluetooth USB dongle to complete this or other Bluetooth samples.
 
 ### What is Bluetooth Low Energy & GATT?
-Bluetooth Low Energy (BLE), or Bluetooth Smart, is a wireless protocol that is part of the Bluetooth 4.0 core specification. The key feature of BLE is its low power consumption, leading to its widespread adoption by IoT and wearable devices. 
+Bluetooth Low Energy (BLE), or Bluetooth Smart, is a wireless protocol that is part of the Bluetooth 4.0 core specification. The key feature of BLE is its low power consumption, leading to its widespread adoption by IoT and wearable devices.
 
 Generic Attribute Profile (GATT) is the Bluetooth Profile that BLE devices will use to communicate with each other. Data is organized into nested objects called Profiles, Services, and Characteristics, as illustrated in the diagram below:
 
